@@ -9,7 +9,7 @@
 1. install the dependencies globally:
 
    ```bash
-   npm install -g database-to-interfaces
+   npm install -g cli-typecarver
    ```
 
 2. create a configuration file `configDatabase.config` in the root of your project with the following content:
