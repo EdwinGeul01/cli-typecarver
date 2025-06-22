@@ -1,6 +1,8 @@
 # CLI Tool to generate TypeScript interfaces from a MySQL database schema.
 
+<p align="center">
 <img src="./typecaver.png" width="230" alt="TypeCaver Logo">
+</p>
 
 - Tool created using the lib [database-to-interfaces](https://raw.githubusercontent.com/EdwinGeul01/cli-typecarver/refs/heads/main/typecaver.png) to generate TypeScript interfaces from a MySQL database schema.
 
@@ -29,6 +31,13 @@
    ```bash
    npx get-database-interfaces
    ```
+
+if your configuration is correct , you will see the following output:
+
+<p align="center">
+<img src="./running-command.png" width="500" alt="TypeCaver Logo" center>
+</p>
+
 
 ## Configuration file | content 🧾
 
