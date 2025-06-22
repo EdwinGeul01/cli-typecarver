@@ -4,7 +4,7 @@
 <img src="./typecaver.png" width="230" alt="TypeCaver Logo">
 </p>
 
-- Tool created using the lib [database-to-interfaces](https://raw.githubusercontent.com/EdwinGeul01/cli-typecarver/refs/heads/main/typecaver.png) to generate TypeScript interfaces from a MySQL database schema.
+- Tool created using the lib [database-to-interfaces](https://github.com/EdwinGeul01/database-to-interfaces-new) to generate TypeScript interfaces from a MySQL database schema.
 
 ## How to use
 
@@ -37,7 +37,6 @@ if your configuration is correct , you will see the following output:
 <p align="center">
 <img src="./running-command.png" width="500" alt="TypeCaver Logo" center>
 </p>
-
 
 ## Configuration file | content 🧾
 
