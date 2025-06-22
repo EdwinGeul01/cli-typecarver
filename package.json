@@ -1,6 +1,6 @@
 {
   "name": "cli-typecarver",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "main": "index.js",
   "bin": {
     "get-database-interfaces": "./dist/index.js"
