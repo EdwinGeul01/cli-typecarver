@@ -1,0 +1,22 @@
+{
+  "name": "cli-database-to-interface",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "get-database-interfaces": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/index.js",
+    "build": "tsc"
+  },
+  "author": "EdwinGeul01",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "database-to-interfaces": "^0.0.36"
+  }
+}

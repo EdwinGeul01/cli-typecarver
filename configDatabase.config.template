@@ -1,0 +1,12 @@
+# configuration file for database connection
+
+port: 3306
+host: localhost
+user: root
+password: 1234
+database: midb 
+# filename: ./interfacesdb.ts
+# filepath: ./a/
+# prefix: PRUEBA_2
+# schema: my_schema
+# dbType: mysql
