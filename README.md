@@ -24,10 +24,10 @@
    filepath: ./a/
    ```
 
-3. run the tool:
+3. run the tool in the same directory as the configuration file:
 
    ```bash
-   npx database-to-interfaces
+   npx get-database-interfaces
    ```
 
 ## Configuration file | content 🧾
