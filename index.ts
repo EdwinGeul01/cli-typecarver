@@ -34,6 +34,18 @@ async function main() {
     return;
   }
 
+  if (process.argv.includes("help") || process.argv.includes("-h")) {
+    console.log(`
+Usage: npx get-database-interfaces [options]:
+1. if you have a configuration file named 'configDatabase.config' in the current directory, it will read it and generate the interfaces.
+you dont need to pass any arguments.
+2. if you want to create a default configuration file, you can use the create-config flag:
+    npx get-database-interfaces create-config
+    this will create a file named 'configDatabase.config' in the current directory with the default configuration.
+      `);
+    return;
+  }
+
   //leer cada linea del archivo de configuracion
   let configMap;
   try {

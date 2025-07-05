@@ -26,6 +26,15 @@
    filepath: ./a/
    ```
 
+
+   aditionally, you can use the `create-config` flag to create a default configuration file like this:
+
+   ```bash
+   npx get-database-interfaces create-config
+   ```
+
+
+
 3. run the tool in the same directory as the configuration file:
 
    ```bash
@@ -37,6 +46,9 @@ if your configuration is correct , you will see the following output:
 <p align="center">
 <img src="./running-command.png" width="500" alt="TypeCaver Logo" center>
 </p>
+
+
+```bash
 
 ## Configuration file | content 🧾
 
