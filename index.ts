@@ -5,7 +5,9 @@ import {
   initModules,
   saveInterfaceFile,
 } from "database-to-interfaces";
-import { readFile } from "fs/promises";
+import { write } from "fs";
+import { readFile, writeFile } from "fs/promises";
+import { defaultConfig } from "./defaultConfig";
 
 async function main() {
   console.log(`
@@ -17,8 +19,20 @@ async function main() {
 [CLI Database to Interface Generator]
 [Version 0.0.1]
 [Author: Edge1212]
-
 `);
+
+  // look if in the args there is a --create-config flag
+  if (process.argv.includes("create-config")) {
+    console.log(
+      "Creating a default configuration file at ./configDatabase.config ..."
+    );
+
+    await writeFile("./configDatabase.config", defaultConfig);
+    console.log(
+      "Default configuration file created successfully! 🎉 \nPlease edit it to match your database"
+    );
+    return;
+  }
 
   //leer cada linea del archivo de configuracion
   let configMap;
